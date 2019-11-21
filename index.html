@@ -13,6 +13,12 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script> 
 	
+	<script>
+		$(document).ready(function(){
+		  $('[data-toggle="tooltip"]').tooltip();   
+		});
+	</script>
+	
 	<style>
 	  /* Make the image fully responsive */
 	  .carousel-inner img {
@@ -72,7 +78,7 @@
 	<div class="jumbotron text-center">
 	    <!-- here i will put some image -->
 		<h1>Welcome to my github profile website.</h1>
-		<p class="text-primary">You can also use difference devices</p> 
+		<p class="text-primary" href="#" data-toggle="tooltip" title="True!">You can also use difference devices</p> 
 	</div>
  
 	<div class="container">
