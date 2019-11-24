@@ -29,15 +29,22 @@
 		}
 		
 		.jumbotron{
-			height: 100vh;
+			height:100vh;
+			background-image: url("images/jumbo.png");
+			background-size: cover;
 		}
 
 		.container-fluid {
 		  padding: 60px 50px;
+		  height: 100vh;
 		}
 		
 		body {
 		position: relative;
+		}
+		
+		.h1 {
+			text-align:center
 		}
 	  
 		.bg-1 {
@@ -56,12 +63,6 @@
 		  background-color: #f6f6f6;
 		}
 		
-		.container {
-		  width: 70%;
-		  max-width: 1024px;
-		  margin: 0 auto;
-		}
-		
 		.logo {
 		  font-size: 200px;
 		}
@@ -71,6 +72,13 @@
 			margin: 25px 0;
 		  }
 		}
+		
+		.center {
+		  margin: auto;
+		  width: 50%;
+		  border: 3px solid green;
+		  padding: 10px;
+		}
 	  
 	</style>
   </head>
@@ -78,41 +86,84 @@
   <body data-spy="scroll" data-target=".navbar" data-offset="50" >
   
 	<!--navbar-->
-  	<nav class="navbar navbar-expand-sm bg-2 navbar-dark fixed-top">
-	  <a class="navbar-brand" href="#carousell">Hello courusell</a>
+<!--navbar-->
+  	<nav class="navbar navbar-expand-sm bg-1 navbar-dark fixed-top">
+	  <a class="navbar-brand" href="#carousell">Home</a>
 	  <ul class="navbar-nav">
 		<li class="nav-item">
-		  <a class="nav-link" href="#jumbotrone">Jumbotrone</a>
+		  <a class="nav-link" href="#jumbotrone">Info</a>
 		</li>
 		<li class="nav-item">
-		  <a class="nav-link" href="#about">About</a>
+		  <a class="nav-link" href="#about">About me</a>
 		</li>
 	  </ul>
 	</nav>
   
+	 <!-- ABOUT ME SCROLL -->
 	 
+	
 	 
-	<div class="jumbotron bg-2 text-center margin-left: auto margin-right:audio" >
+	<div class="jumbotron text-center margin-left: auto margin-right:audio"
 	    <!-- here i will put some image -->
 		<h1>Welcome to my github profile website.</h1>
 		<h6> hello and welcome </p>
 		<p class="text-primary" href="#" data-toggle="tooltip" title="True!">You can also use difference devices</p> 
 	</div>
 	
-	<div class="container-fluid" start="center">
+	<div class="container-fluid">
 
+		<br><br>
+
+		<div class="container">
 			<div class="row">
-				<div class="col-sm">
-					<h2>About me</h2>
-					<h4>Text text..</h5>
-					<p>text text..</p>
-					<button class="btn btn-primary btn-sm">Link to LinkedIn</button>
+				<div class="col-sm-6">
+					<div class="card" style="width:400px">
+						<h2>About me:</h2>
+						<p>Vitali Maksimov:</p>
+						<img class="card-img-top" src="images/avatar1.png" alt="Card image" style="width:100%">
+						<div class="card-body">
+						  <h4 class="card-title">John Doe</h4>
+						  <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+						  <a href="#" class="btn btn-primary">Linked In</a>
+						  <a href="#" class="btn btn-primary">Facebook</a>
+						  <a href="#" class="btn btn-primary">Linked In</a>
+						</div>
+					</div>
 				</div>
-				<div class="col-sm">
-				  <span class="fa fa-signal logo"></span>
+				
+				<div class="col-sm-6">
+				<!-- Green -->
+						<p>Some skill: </p>
+					<div class="progress">
+					  <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" style="width:40%"></div>
+					</div><br>
+					
+					<div class="progress">
+					  <div class="progress-bar bg-info progress-bar-striped progress-bar-animated" style="width:40%"></div>
+					</div><br>
+					
+						<div class="progress">
+					  <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" style="width:40%"></div>
+					</div><br>
+					
+						<div class="progress">
+					  <div class="progress-bar bg-info progress-bar-striped progress-bar-animated" style="width:40%"></div>
+					</div><br>
+					
+						<div class="progress">
+					  <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" style="width:40%"></div>
+					</div><br>
 				</div>
-			</div>
-	
+				
+
+				
+			
+			  
+		  
+		  
+		  </div>
+	    </div>
+		<br><br>
 	</div>
 
 
@@ -172,7 +223,6 @@
 		</div>
 	</div>
 
-	
 
 	  
   
