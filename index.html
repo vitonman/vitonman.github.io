@@ -111,20 +111,25 @@
 <main>
 
   <!--Section: about-->
-  <section id="about" class="py-5" style="height: 100vh;">
+  <section id="about" class="py-5" style=" display: flex; align-items: center; background-color: #eee;">
 
     <!-- Container -->
     <div class="container">
 	
-	<div class="row">
-	  <!-- Section heading -->
-      <h2 class="h1-responsive font-weight-bold text-center mb-5">Why is it so great?</h2>
+	<div class="row align-items-center justify-content-center">
+	<div class="col-sm">
+     	  <!-- Section heading -->
+      <h2 class="h1-responsive font-weight-bold text-center mb-5">Productivity graph</h2>
       <!-- Section description -->
-      <p class="lead grey-text text-center w-responsive mx-auto mb-5">Lorem ipsum dolor sit amet,
-        consectetur
-        adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-        ad
-        minim veniam.</p>
+      <p class="lead grey-text text-center w-responsive mx-auto mb-5">
+		In this graph I would like to show what are my main skills and what are my priorities for learning.</p>
+    </div>
+
+    <div class="col-sm">
+      <canvas id="radarChart"></canvas>
+    </div>
+
+
 
 	</div>
     
@@ -145,13 +150,13 @@
 
 
 <!--Section: articles-->
-<section id="articles" class="text-center py-5" style="background-color: #eee;">
+<section id="articles" class="text-center py-5">
 
     <!-- Container -->
     <div class="container">
 
         <!-- Section heading -->
-        <h2 class="h1-responsive font-weight-bold mb-5">Articles</h2>
+        <h2 class="h1-responsive font-weight-bold mb-5">Links</h2>
 
         <!--Grid row-->
         <div class="row">
@@ -175,7 +180,7 @@
                     <div class="card-body card-body-cascade">
 
                         <!-- Label -->
-                        <h5 class="pink-text pb-2 pt-1"><i class="fas fa-utensils"></i> Facebook</h5>
+                        <h5 class="pink-text pb-2 pt-1"><i class="fab fa-facebook-square"></i> Facebook</h5>
                         <!-- Title -->
                         <h4 class="font-weight-bold card-title">My facebook page</h4>
                         <!-- Text -->
@@ -211,7 +216,7 @@
                     <div class="card-body card-body-cascade">
 
                         <!-- Label -->
-                        <h5 class="pink-text pb-2 pt-1"><i class="fas fa-utensils"></i> LinkedIn</h5>
+                        <h5 class="pink-text pb-2 pt-1"><i class="fab fa-linkedin"></i> LinkedIn</h5>
                         <!-- Title -->
                         <h4 class="font-weight-bold card-title">Cheat day inspirations</h4>
                         <!-- Text -->
@@ -247,7 +252,7 @@
                     <div class="card-body card-body-cascade">
 
                         <!-- Label -->
-                        <h5 class="pink-text pb-2 pt-1"><i class="fas fa-utensils"></i> Culinary</h5>
+                        <h5 class="pink-text pb-2 pt-1"><i class="fas fa-address-book"></i> CV</h5>
                         <!-- Title -->
                         <h4 class="font-weight-bold card-title">Cheat day inspirations</h4>
                         <!-- Text -->

@@ -3,10 +3,10 @@ var ctxR = document.getElementById("radarChart").getContext('2d');
 var myRadarChart = new Chart(ctxR, {
 type: 'radar',
 data: {
-labels: ["Eating", "Drinking", "Sleeping", "Designing", "Coding", "Cycling", "Running"],
+labels: ["Java", "PHP", "CSS", "HTML", "Android", "Python"],
 datasets: [{
-label: "My First dataset",
-data: [65, 59, 90, 81, 56, 55, 40],
+label: "My current abilities",
+data: [73, 60, 57, 70, 73, 60],
 backgroundColor: [
 'rgba(105, 0, 132, .2)',
 ],
@@ -16,8 +16,8 @@ borderColor: [
 borderWidth: 2
 },
 {
-label: "My Second dataset",
-data: [28, 48, 40, 19, 96, 27, 100],
+label: "My preferences",
+data: [87, 70, 65, 80, 80, 70],
 backgroundColor: [
 'rgba(0, 250, 220, .2)',
 ],
