@@ -1,73 +1,24 @@
-
-		.jumbotron{
-			height:100vh;
-			background-image: url("images/screen.jpeg");
-			background-size: cover;
-		}
-		
-		.heightCenter {
-			height: 100vh;
-			padding: 15px;
-		}
-		
-		.paddingandother {
-			padding: 15px;
-			margin: 15px;
-		}
-
-		.bg-1 {
-			background-color: #1abc9c; /* Green */
-			color: #ffffff;
-		}
-		.bg-2 {
-			background-color: #353535; /* Dark Blue */
-			color: #ffffff;
-		}
-		.bg-3 {
-			background-color: #ffffff; /* White */
-			color: #555555;
-		}
-		.bg-grey {
-		  background-color: #f6f6f6;
-		}
-		
-		div.a {
-		  text-align: center;
-		}
-		
-		atrac{
-			padding-bottom: 30px;
-			margin-bottom: 30px;
-		}
-		
-		#intro {
-		background: url("images/screen.jpeg")no-repeat center center fixed;
-		-webkit-background-size: cover;
-		-moz-background-size: cover;
-		-o-background-size: cover;
-		background-size: cover;
-		height:100vh;
-		
-		background: rgba(16,27,54,0.3);
-background: -moz-linear-gradient(-45deg, rgba(16,27,54,0.3) 5%, rgba(16,27,54,0.64) 34%, rgba(13,48,48,0.92) 57%, rgba(13,48,48,1) 64%);
-background: -webkit-gradient(left top, right bottom, color-stop(5%, rgba(16,27,54,0.3)), color-stop(34%, rgba(16,27,54,0.64)), color-stop(57%, rgba(13,48,48,0.92)), color-stop(64%, rgba(13,48,48,1)));
-background: -webkit-linear-gradient(-45deg, rgba(16,27,54,0.3) 5%, rgba(16,27,54,0.64) 34%, rgba(13,48,48,0.92) 57%, rgba(13,48,48,1) 64%);
-background: -o-linear-gradient(-45deg, rgba(16,27,54,0.3) 5%, rgba(16,27,54,0.64) 34%, rgba(13,48,48,0.92) 57%, rgba(13,48,48,1) 64%);
-background: -ms-linear-gradient(-45deg, rgba(16,27,54,0.3) 5%, rgba(16,27,54,0.64) 34%, rgba(13,48,48,0.92) 57%, rgba(13,48,48,1) 64%);
-background: linear-gradient(135deg, rgba(16,27,54,0.3) 5%, rgba(16,27,54,0.64) 34%, rgba(13,48,48,0.92) 57%, rgba(13,48,48,1) 64%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#101b36', endColorstr='#0d3030', GradientType=1 );
+.intro-2 {
+    background: url("https://mdbootstrap.com/img/Photos/Others/img (40).jpg")no-repeat center center;
+    background-size: cover;
 }
-		
-		h1.display-3 {
-			background-color: #000000;   
-			color: #D7D7D7;
-		}
-		
-	
-		.navbar {
-			z-index: 1;
-		}
-		
-		
 
-	
+.navbar {
+    background-color: transparent;
+}
+
+.top-nav-collapse {
+    background-color: #4285F4;
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar {
+        background-color: #4285F4;
+    }
+}
+html,
+body,
+header,
+.view {
+    height: 100%;
+}
