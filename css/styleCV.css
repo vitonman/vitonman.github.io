@@ -1,6 +1,36 @@
 body {
- background-image: url("firstpage.png");
- background-color: #cccccc;
- 
+ background-image: url("../images/screen.jpg");
+    background-size: cover;
+    height: 100%;
+    width: 50%;
+    margin: auto;
+}
+
+.my-custom-scrollbar {
+  position: relative;
+  width: 800px;
+  height: 400px;
+  overflow: auto;
+}
+
+.navbar {
+    z-index: 1;
+}
+
+.top-nav-collapse {
+    background-color: #3A3D41;
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar {
+        background-color: #3A3D41;
+    }
+}
+
+
+
+
+#fullsize {
+	height: 100vh;
 
 }
