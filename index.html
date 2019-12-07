@@ -81,7 +81,7 @@
             <h1 class="display-3 font-weight-bold white-text ">Vitali Maksimov</h3>
             <hr class="hr-light my-4 w-75">
             <h4 class="subtext-header mt-2 mb-4">My portfolio website </h4>
-            <a href="curriculumvitae.html" class="btn btn-rounded btn-outline-white">
+            <a href="vita.pdf" class="btn btn-rounded btn-outline-white">
               <i class="fas fa-home "></i> CURRICULUM VITAE
             </a>
           </div>
@@ -103,44 +103,60 @@
    
    <!----------------------------------------------------------- Main Layout ---------------------------------------------------->
 <main>
-
-  <!--Section: about-->
-  <section id="links" class="py-5" style=" display: flex; align-items: center; background-color: #eee;">
+       <!--Section: about-->
+  <section id="links" class="py-5" style=" display: flex; align-items: center;  background-color: #eee;">
     <!-- Container -->
     <div class="container">
 	
 	<div class="row align-items-center justify-content-center">
-	<div class="col-sm">
-     	  <!-- Section heading -->
-      <h2 class="h1-responsive font-weight-bold text-center mb-5">Productivity graph</h2>
-      <!-- Section description -->
-      <p class="lead grey-text text-center w-responsive mx-auto mb-5">
-		In this graph I would like to show what are my main skills and what are my priorities for learning.</p>
-    </div>
-
-    <div class="col-sm">
-      <canvas id="radarChart"></canvas>
-    </div>
+		<div class="col-sm-8">
+			  <!-- Section heading -->
+		  <h2 class="h1-responsive font-weight-bold text-center mb-5">About me</h2>
+		  <!-- Section description -->
+		  <p class="lead grey-text w-responsive mx-auto mb-5">
+			In this graph I would like to show what are my main skills and what are my priorities for learning.</p>
+		</div>
+		
+		<div class="col-sm-4">
+				<img src="images/vita.png"></img>
+			</div>
 	</div>
-    
     </div>
     <!-- Container -->
-
   </section>
-  <!--Section: about-->
-  
-  
 
-  <!--Section: about-->
-  
+    <!--Section: about-->
   <section id="links" class="py-5" style=" display: flex; align-items: center;">
+    <!-- Container -->
+    <div class="container">
+		
+		<div class="row align-items-center justify-content-center">
+			<div class="col-sm-7">
+				<!-- Section heading -->
+				<h2 class="h1-responsive font-weight-bold text-center mb-5">Productivity graph</h2>
+				<!-- Section description -->
+				<p class="lead grey-text w-responsive mx-auto mb-5">
+				In this graph I would like to show what are my main skills and what are my priorities for learning.</p>
+			</div>
+
+			<div class="col-sm-5">
+				<canvas id="radarChart"></canvas>
+			</div>
+		</div>
+    </div>
+  </section>
+
+
+  
+    
+  <section id="links" class="py-5" style=" display: flex; align-items: center;  background-color: #eee;">
   
     <div class="container">
 	
 	<div class="row align-items-center justify-content-center">
 	<div class="col-sm-8">
      	  <!-- Section heading -->
-      <h2 class="h1-responsive font-weight-bold text-center mb-5">About me</h2>
+      <h2 class="h1-responsive font-weight-bold text-center mb-5">Experience</h2>
       <!-- Section description -->
       <p class="lead grey-text w-responsive mx-auto mb-5">
 			I have experience with creating software systems models for mobile native applications,
@@ -169,12 +185,11 @@
   
   </section>
   
- 
-   
-   <!-----------------------------------------------------------Section: articles---------------------------------------------------->
-  
-<!--Section: LINKS-->
-<section id="articles" class="text-center py-5" style=" background-color: #eee;">
+
+
+
+<!-----------------------------------------Section: LINKS-->
+<section id="articles" class="text-center py-5">
 
     <!-- Container -->
     <div class="container">
@@ -341,23 +356,20 @@
 
 
    <!--Section: call to action-->
-  <div class="streak streak-md streak-photo" style="background-image:url("")>
-    <div class="flex-center white-text rgba-black-light pattern-1">
-        <ul class="mb-0 list-unstyled">
-            <li>
-                <h2 class="h2-responsive"><i class="fas fa-quote-left" aria-hidden="true"></i> blah blah blah blah. <i class="fas fa-quote-right" aria-hidden="true"></i></h2>
-						     <a href="#contact" class="btn btn-outline-white wow fadeIn " data-offset="100" data-wow-delay="0.2s">Home</a>
-            </li>
-            <li class="mb-0">
-                <h5 class="text-center font-italic mb-0">~ Some person</h5>
-            </li>
-        </ul>
-    </div>
-	
-	 <div class="text-center">
-           
-            </div>
-</div>
+	<div class="streak streak-md streak-photo" style="background-image:url("images/screen.jpg")>
+		<div class="flex-center white-text rgba-black-light pattern-1">
+			<ul class="mb-0 list-unstyled">
+				<li>
+					<h2 class="h2-responsive"><i class="fas fa-quote-left" aria-hidden="true"></i> blah blah blah blah. <i class="fas fa-quote-right" aria-hidden="true"></i></h2>
+								 <a href="#contact" class="btn btn-outline-white wow fadeIn " data-offset="100" data-wow-delay="0.2s">Home</a>
+				</li>
+				<li class="mb-0">
+					<h5 class="text-center font-italic mb-0">~ Some person</h5>
+				</li>
+			</ul>
+		</div>
+	</div>
+
 <!--Section: call to action-->
 
 
@@ -376,6 +388,7 @@
   <!-- Initializations -->
 	<!-- radar -->
 <script type="text/javascript" src="js/radar.js"></script>
+
 <script>
 // Get the modal
 var modal = document.getElementById("myModal");
