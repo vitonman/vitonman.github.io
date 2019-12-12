@@ -15,6 +15,8 @@
   <link href="css/mdb.min.css" rel="stylesheet">
   <!-- Your custom styles (optional) -->
   <link href="css/style.css" rel="stylesheet">
+  
+
 </head>
 
 <header>
@@ -29,15 +31,21 @@
       <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
         <ul class="navbar-nav mr-auto smooth-scroll">
           <li class="nav-item">
-            <a class="nav-link" href="#home">Home
+            <a class="nav-link" href="#">Home
               <span class="sr-only">(current)</span>
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#links" data-offset="90">Links</a>
+            <a class="nav-link" href="#about" data-offset="90">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#contact" data-offset="90">Contact</a>
+            <a class="nav-link" href="#graph" data-offset="90">Graph</a>
+          </li>
+		    <li class="nav-item">
+            <a class="nav-link" href="#experience" data-offset="90">Experience</a>
+          </li>
+		      <li class="nav-item">
+            <a class="nav-link" href="#links" data-offset="90">Links</a>
           </li>
         </ul>
         <!-- Social Icon  -->
@@ -62,6 +70,8 @@
     </div>
   </nav>
   
+	
+  
    <!----------------------------------------------------------- NAVBAR ---------------------------------------------------->
 
   
@@ -75,15 +85,18 @@
       <!-- Content -->
       <div class="container px-md-3 px-sm-0">
         <!--Grid row-->
-        <div class="row wow fadeIn">
+        <div class="row wow animated fadeIn">
           <!--Grid column-->
-          <div class="col-md-12 mb-4 white-text text-center wow fadeIn">
+          <div class="col-md-12 mb-4 white-text text-center wow fadeIn ">
             <h1 class="display-3 font-weight-bold white-text ">Vitali Maksimov</h3>
             <hr class="hr-light my-4 w-75">
             <h4 class="subtext-header mt-2 mb-4">My portfolio website </h4>
-            <a href="vita.pdf" class="btn btn-rounded btn-outline-white">
+			
+
+            <a href="vita.pdf" class="btn btn-rounded btn-outline-white ">
               <i class="fas fa-home "></i> CURRICULUM VITAE
             </a>
+			
           </div>
           <!--Grid column-->
         </div>
@@ -103,66 +116,82 @@
    
    <!----------------------------------------------------------- Main Layout ---------------------------------------------------->
 <main>
-       <!--Section: about-->
-  <section id="links" class="py-5" style=" display: flex; align-items: center;  background-color: #eee;">
+
+
+         <!--Section: about-->
+  <section id="about" class="py-5" style=" display: flex; align-items: center;  background-color: #eee;">
     <!-- Container -->
     <div class="container">
 	
-	<div class="row align-items-center justify-content-center">
-		<div class="col-sm-8">
-			  <!-- Section heading -->
-		  <h2 class="h1-responsive font-weight-bold text-center mb-5">About me</h2>
-		  <!-- Section description -->
-		  <p class="lead grey-text w-responsive mx-auto mb-5">
-			I have experience with creating software systems models for mobile native applications, resolving issues related to it, understanding of client-server side and basic knowledge of UI design. I prefer Java language and it’s my favorite language right now but also I know PHP, Python, JavaScript and have some experience in C#(We had a game project at University in Unity). In my native mobile application I was used Parse server, but of course I used earlier mySQL, have touch with MS Microsoft SQL and have experience in Google Firebase noSQL Cloud Database.</div>
-		
-		<div class="col-sm-4">
+		<div class="row align-items-center justify-content-center  animated fadeInRightBig">
+	
+				<!-- Grid column -->
+				<div class="col-sm-7">
+					<div class="media">
+					  <img class="d-flex rounded-circle avatar z-depth-1-half mr-3" src="images/vitali.png" alt="Avatar">
+					  <div class="media-body">
+						<h5 class="mt-0 font-weight-bold  ">About me</h5>
+					
+						
+						<li class="lead grey-text">My name is <strong>Vitali Maksimov</strong> I'm 25 years old.</li>
+							<p class="lead grey-text">
+						I'm learning programming about 4 years, I went to university for a two year.
+						Made the decision to be a programmer after that when i realize that with developing software you can create
+						anything what you want, starting from mobile apps ending with banking systems.
+						Right now I strongly belive that i will continue to grow up my skills and i'm looking at my future with optimism.
+						During the next year i have plan to continue my education, finish some courses and continue creating my app.
 
-			<div class="text-center">
-			  <img src="images/vita.png" class="img-fluid" alt="">
+						</p>
+					  </div>
+					</div>
+
+				</div>
+				<!-- Grid column -->
+			
+			<div class="col-sm-5 view overlay zoom">
+				<div class="text-center">
+				  <img src="images/codeblock2.png" alt="thumbnail" class="img-thumbnail z-depth-1 rounded-lg" style="width: 200%">
+
+				</div>
 
 			</div>
-
 		</div>
-    </div>
+	</div>
     <!-- Container -->
   </section>
 
     <!--Section: about-->
-  <section id="links" class="py-5" style=" display: flex; align-items: center;">
+  <section id="graph" class="py-5" style=" display: flex; align-items: center;">
     <!-- Container -->
     <div class="container">
 		
 		<div class="row align-items-center justify-content-center">
-			<div class="col-sm-7">
+			<div class="col-sm-8">
 				<!-- Section heading -->
 				<h2 class="h1-responsive font-weight-bold text-center mb-5">Productivity graph</h2>
 				<!-- Section description -->
 				<p class="lead grey-text w-responsive mx-auto mb-5">
 				In this graph I would like to show what are my main skills and what are my priorities for learning.
-In this graph I would like to show what are my main skills and what are my priorities for learning.
-In this graph I would like to show what are my main skills and what are my priorities for learning.
-In this graph I would like to show what are my main skills and what are my priorities for learning.
-In this graph I would like to show what are my main skills and what are my priorities for learning.</p>
-			</div>
-
-
-
-			<div class="col-sm-5">
-			
-				<div style="text-align:center;">
-					<canvas class="img-fluid" alt="" id="radarChart"></canvas>
+				This example may be not full information about my knowledge, this is just visual	interpretation about some skills.
 				</div>
-				
+
+
+
+			<div class="col-sm-4">
+
+				<canvas id="radarChart"  height="300"></canvas>
 			</div>
 		</div>
     </div>
   </section>
+  
+  
+  
 
 
   
     
-  <section id="links" class="py-5" style=" display: flex; align-items: center;  background-color: #eee;">
+  <section id="experience" class="py-5" style=" display: flex; align-items: center;  background-color: #eee;">
   
     <div class="container">
 	
@@ -202,12 +231,10 @@ In this graph I would like to show what are my main skills and what are my prior
     </div>
   
   </section>
-  
-
-
+ 
 
 <!-----------------------------------------Section: LINKS-->
-<section id="articles" class="text-center py-5">
+<section id="links" class="text-center py-5">
 
     <!-- Container -->
     <div class="container">
@@ -404,6 +431,7 @@ In this graph I would like to show what are my main skills and what are my prior
   <!-- MDB core JavaScript -->
   <script type="text/javascript" src="js/mdb.min.js"></script>
   <!-- Initializations -->
+  <script src="https://ajax.aspnetcdn.com/ajax/modernizr/modernizr-2.7.2.js"></script>
 	<!-- radar -->
 <script type="text/javascript" src="js/radar.js"></script>
 
@@ -429,6 +457,9 @@ span.onclick = function() {
   modal.style.display = "none";
 }
 </script>
+
+
+
 
 
 
