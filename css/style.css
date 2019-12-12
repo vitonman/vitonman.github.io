@@ -162,6 +162,20 @@ html {
   }
 }
 
+.streak.streak-photo {
+background-attachment: fixed;
+}
+
+.view-video {
+      left: 0;
+            top: 0;
+            position: fixed;
+			height: 100%;
+       
+            z-index: -20;
+	 
+}
+
 
 /*scrollbar -------------------------------- */ 
 
