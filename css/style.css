@@ -1,9 +1,14 @@
 /* Required for full background image */
+
 html,
 body,
 header,
+
+
 .view {
   height: 100%;
+
+
 }
 
 @media (min-width: 768px) {
@@ -11,11 +16,19 @@ header,
     width: 90%;
    max-width:1200px;
   }
+    .view-video {
+	width: 50%;
+  
+  }
 }
 
 @media (min-width: 992px) {
   .modal-lg {
     width: 900px;
+  }
+    .view-video {
+	width: 50%;
+  
   }
 }
 @media (min-width: 768px) {
@@ -23,8 +36,56 @@ header,
     width: 600px;
     margin: 30px auto;
   }
+    .view-video {
+	width: 50%;
+  
+  }
  
 }
+
+@media (min-width: 768px) {
+  .modal-xl {
+    width: 90%;
+   max-width:1200px;
+  }
+
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 50%;
+  }
+}
+
+@media (min-width: 768px) {
+  .modal-xl {
+    width: 90%;
+   max-width:1200px;
+  }
+  .view-video {
+	width: 50%;
+  
+  }
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 50%;
+  }
+}
+
+
+
+.view-video {  
+	left: 0;
+	top: 0;
+	position: fixed;
+	height: 100%;
+	z-index: -20;
+}
+
 
 .navbar {
     z-index: 1;
@@ -40,12 +101,36 @@ header,
     .navbar {
         background-color: #3A3D41;
     }
+	
 }
 
-#sad {
-	height:300px;
-	wider: 150px;
+
+
+html {
+  font-size: 1rem;
 }
+
+@include media-breakpoint-up(sm) {
+  html {
+    font-size: 1.2rem;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  html {
+    font-size: 1.4rem;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  html {
+    font-size: 1.6rem;
+  }
+}
+
+
+
+
 
 /* Style the Image Used to Trigger the Modal */
 #myImg {
@@ -133,48 +218,14 @@ header,
   cursor: pointer;
 }
 
-/* 100% Image Width on Smaller Screens */
-@media only screen and (max-width: 700px){
-  .modal-content {
-    width: 50%;
-  }
-}
 
-html {
-  font-size: 1rem;
-}
 
-@include media-breakpoint-up(sm) {
-  html {
-    font-size: 1.2rem;
-  }
-}
-
-@include media-breakpoint-up(md) {
-  html {
-    font-size: 1.4rem;
-  }
-}
-
-@include media-breakpoint-up(lg) {
-  html {
-    font-size: 1.6rem;
-  }
-}
 
 .streak.streak-photo {
 background-attachment: fixed;
 }
 
-.view-video {
-      left: 0;
-            top: 0;
-            position: fixed;
-			height: 100%;
-       
-            z-index: -20;
-	 
-}
+
 
 
 /*scrollbar -------------------------------- */ 
