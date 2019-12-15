@@ -7,8 +7,6 @@ header,
 
 .view {
   height: 100%;
-
-
 }
 
 @media (min-width: 768px) {
@@ -16,30 +14,21 @@ header,
     width: 90%;
    max-width:1200px;
   }
-    .view-video {
-	width: 50%;
-  
-  }
+
 }
 
 @media (min-width: 992px) {
   .modal-lg {
     width: 900px;
   }
-    .view-video {
-	width: 50%;
-  
-  }
+
 }
 @media (min-width: 768px) {
   .modal-dialog {
     width: 600px;
     margin: 30px auto;
   }
-    .view-video {
-	width: 50%;
-  
-  }
+
  
 }
 
@@ -63,10 +52,7 @@ header,
     width: 90%;
    max-width:1200px;
   }
-  .view-video {
-	width: 50%;
-  
-  }
+
 }
 
 /* 100% Image Width on Smaller Screens */
@@ -76,15 +62,6 @@ header,
   }
 }
 
-
-
-.view-video {  
-	left: 0;
-	top: 0;
-	position: fixed;
-	height: 100%;
-	z-index: -20;
-}
 
 
 .navbar {
