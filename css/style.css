@@ -195,11 +195,11 @@ html {
 }
 
 video{
-   object-fit: fill;
+   object-fit: cover;
 }
 
 .video {
-  object-fit: fill;
+  object-fit: cover;
 }
 
 
