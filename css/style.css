@@ -196,41 +196,88 @@ html {
 	
 /*VIDEO BACKGROUND
 */
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
 #videoBG {
     position:fixed;
     z-index: -1;
 }
 
-@media only screen and (min-width : 320px) {
-         #videoBG {
+@media (min-width: 1281px) {
+  
+  #videoBG {
         width:100%;
         height: auto;
     }
-    }
-	
-
-@media only screen and (min-width : 480px) {
-   #videoBG {
-        width:100%;
-        height: auto;
-    }
+  
 }
 
-@media (min-aspect-ratio: 16/9) {
-    #videoBG {
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  #videoBG {
         width:100%;
         height: auto;
     }
+  
 }
 
-@media (max-width: 767px) {
-    #videoBG {
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+ #videoBG {
         display: none;
     }
     body {
-        background: url('poster.jpg');
+        background: url('images/firstpage.jpg');
         background-size: cover;
     }
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+#videoBG {
+        display: none;
+    }
+    body {
+        background: url('images/firstpage.jpg');
+        background-size: cover;
+    }
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  /* CSS */
+  
 }
 /*VIDEO BACKGROUND END
 */
