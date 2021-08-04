@@ -194,9 +194,8 @@ html {
   cursor: pointer;
 }
 
-.video{
-position:absolute;
-width:100%;
+video {
+  object-fit: fill;
 }
 
 .streak.streak-photo {
