@@ -194,8 +194,10 @@ html {
   cursor: pointer;
 }
 
-
-
+.video{
+position:absolute;
+width:100%;
+}
 
 .streak.streak-photo {
 background-attachment: fixed;
