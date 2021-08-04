@@ -199,6 +199,9 @@ video { height: 100vh; min-height: 100%; }
 .video {
   object-fit: fill;
 }
+video[poster]{
+ height: 100vh; min-height: 100%; 
+}
 
 .streak.streak-photo {
 background-attachment: fixed;
