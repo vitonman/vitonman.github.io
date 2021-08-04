@@ -193,9 +193,11 @@ html {
   text-decoration: none;
   cursor: pointer;
 }
-
+	
 video{
-   object-fit: cover;
+	 position: absolute;
+
+	background-size: cover;
 }
 
 
