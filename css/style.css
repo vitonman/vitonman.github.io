@@ -194,9 +194,7 @@ html {
   cursor: pointer;
 }
 
-video {
-  object-fit: fill;
-}
+video { height: 100vh; min-height: 100%; }
 
 .video {
   object-fit: fill;
