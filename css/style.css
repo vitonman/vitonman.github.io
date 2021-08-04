@@ -195,7 +195,7 @@ html {
 }
 
 video{
-   object-fit: contain;
+   object-fit: fill;
 }
 
 .video {
