@@ -195,7 +195,7 @@ html {
 }
 
 video{
-   object-fit: inherit;
+   object-fit: cover;
 }
 
 .video {
