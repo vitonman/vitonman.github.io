@@ -198,6 +198,10 @@ video {
   object-fit: fill;
 }
 
+.video {
+  object-fit: fill;
+}
+
 .streak.streak-photo {
 background-attachment: fixed;
 }
