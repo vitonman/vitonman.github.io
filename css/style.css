@@ -195,10 +195,8 @@ html {
 }
 	
 video{
-	  -webkit-background-size:cover;
-   -moz-background-size:cover;
-   -o-background-size:cover;
-   background-size:cover;
+	position:fixed;
+    z-index: -1;
 }
 
 
